@@ -154,4 +154,5 @@ async function callApi(method, port, body, oCall) {
             console.log('There has been a ' +
                 'problem with your fetch operation: ' + error.message);
         });
+
 }
